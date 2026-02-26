@@ -434,11 +434,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Desarrollador\\source\\repos\\SignalRSample\\SignalRSample\\SignalRSample.csproj",
+      "projectUniqueName": "C:\\Nube\\HumayaDigital\\SignalR\\SignalRSample\\SignalRSample.csproj",
       "projectName": "SignalRSample",
-      "projectPath": "C:\\Users\\Desarrollador\\source\\repos\\SignalRSample\\SignalRSample\\SignalRSample.csproj",
+      "projectPath": "C:\\Nube\\HumayaDigital\\SignalR\\SignalRSample\\SignalRSample.csproj",
       "packagesPath": "C:\\Users\\Desarrollador\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Desarrollador\\source\\repos\\SignalRSample\\SignalRSample\\obj\\",
+      "outputPath": "C:\\Nube\\HumayaDigital\\SignalR\\SignalRSample\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
