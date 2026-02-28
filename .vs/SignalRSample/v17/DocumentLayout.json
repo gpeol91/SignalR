@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Nube\\HumayaDigital\\SignalR\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D3B7617-DBBD-4C67-B31B-C86E400EE267}|SignalRSample\\SignalRSample.csproj|c:\\nube\\humayadigital\\signalr\\signalrsample\\controllers\\recepcionmensajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D3B7617-DBBD-4C67-B31B-C86E400EE267}|SignalRSample\\SignalRSample.csproj|solutionrelative:signalrsample\\controllers\\recepcionmensajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D3B7617-DBBD-4C67-B31B-C86E400EE267}|SignalRSample\\SignalRSample.csproj|c:\\nube\\humayadigital\\signalr\\signalrsample\\hubs\\userhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D3B7617-DBBD-4C67-B31B-C86E400EE267}|SignalRSample\\SignalRSample.csproj|solutionrelative:signalrsample\\hubs\\userhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9D3B7617-DBBD-4C67-B31B-C86E400EE267}|SignalRSample\\SignalRSample.csproj|c:\\nube\\humayadigital\\signalr\\signalrsample\\modelos\\mdl_notificaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D3B7617-DBBD-4C67-B31B-C86E400EE267}|SignalRSample\\SignalRSample.csproj|solutionrelative:signalrsample\\modelos\\mdl_notificaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D3B7617-DBBD-4C67-B31B-C86E400EE267}|SignalRSample\\SignalRSample.csproj|c:\\nube\\humayadigital\\signalr\\signalrsample\\modelos\\mdl_obtener_chat_mensajes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D3B7617-DBBD-4C67-B31B-C86E400EE267}|SignalRSample\\SignalRSample.csproj|solutionrelative:signalrsample\\modelos\\mdl_obtener_chat_mensajes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D3B7617-DBBD-4C67-B31B-C86E400EE267}|SignalRSample\\SignalRSample.csproj|c:\\nube\\humayadigital\\signalr\\signalrsample\\controllers\\recepcionmensajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D3B7617-DBBD-4C67-B31B-C86E400EE267}|SignalRSample\\SignalRSample.csproj|solutionrelative:signalrsample\\controllers\\recepcionmensajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D3B7617-DBBD-4C67-B31B-C86E400EE267}|SignalRSample\\SignalRSample.csproj|c:\\nube\\humayadigital\\signalr\\signalrsample\\modelos\\mdl_notificaciones_recepcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D3B7617-DBBD-4C67-B31B-C86E400EE267}|SignalRSample\\SignalRSample.csproj|solutionrelative:signalrsample\\modelos\\mdl_notificaciones_recepcion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D3B7617-DBBD-4C67-B31B-C86E400EE267}|SignalRSample\\SignalRSample.csproj|c:\\nube\\humayadigital\\signalr\\signalrsample\\hubs\\userhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D3B7617-DBBD-4C67-B31B-C86E400EE267}|SignalRSample\\SignalRSample.csproj|solutionrelative:signalrsample\\hubs\\userhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +38,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "mdl_Notificaciones_recepcion.cs",
               "DocumentMoniker": "C:\\Nube\\HumayaDigital\\SignalR\\SignalRSample\\Modelos\\mdl_Notificaciones_recepcion.cs",
               "RelativeDocumentMoniker": "SignalRSample\\Modelos\\mdl_Notificaciones_recepcion.cs",
@@ -55,20 +51,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "RecepcionMensajeController.cs",
               "DocumentMoniker": "C:\\Nube\\HumayaDigital\\SignalR\\SignalRSample\\Controllers\\RecepcionMensajeController.cs",
               "RelativeDocumentMoniker": "SignalRSample\\Controllers\\RecepcionMensajeController.cs",
               "ToolTip": "C:\\Nube\\HumayaDigital\\SignalR\\SignalRSample\\Controllers\\RecepcionMensajeController.cs",
               "RelativeToolTip": "SignalRSample\\Controllers\\RecepcionMensajeController.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAgwC0AAAAIAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAgwCwAAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-27T00:00:55.194Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "UserHub.cs",
               "DocumentMoniker": "C:\\Nube\\HumayaDigital\\SignalR\\SignalRSample\\Hubs\\UserHub.cs",
               "RelativeDocumentMoniker": "SignalRSample\\Hubs\\UserHub.cs",
@@ -76,31 +72,17 @@
               "RelativeToolTip": "SignalRSample\\Hubs\\UserHub.cs",
               "ViewState": "AQIAADQAAAAAAAAAAAAjwEoAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T19:52:45.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-26T19:52:45.006Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "mdl_Obtener_Chat_Mensajes.cs",
-              "DocumentMoniker": "C:\\Nube\\HumayaDigital\\SignalR\\SignalRSample\\Modelos\\mdl_Obtener_Chat_Mensajes.cs",
-              "RelativeDocumentMoniker": "SignalRSample\\Modelos\\mdl_Obtener_Chat_Mensajes.cs",
-              "ToolTip": "C:\\Nube\\HumayaDigital\\SignalR\\SignalRSample\\Modelos\\mdl_Obtener_Chat_Mensajes.cs",
-              "RelativeToolTip": "SignalRSample\\Modelos\\mdl_Obtener_Chat_Mensajes.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-26T23:03:04.523Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "mdl_Notificaciones.cs",
               "DocumentMoniker": "C:\\Nube\\HumayaDigital\\SignalR\\SignalRSample\\Modelos\\mdl_Notificaciones.cs",
               "RelativeDocumentMoniker": "SignalRSample\\Modelos\\mdl_Notificaciones.cs",
               "ToolTip": "C:\\Nube\\HumayaDigital\\SignalR\\SignalRSample\\Modelos\\mdl_Notificaciones.cs",
               "RelativeToolTip": "SignalRSample\\Modelos\\mdl_Notificaciones.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-26T23:02:48.478Z",
               "EditorCaption": ""
