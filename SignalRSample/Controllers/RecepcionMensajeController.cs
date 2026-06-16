@@ -50,7 +50,13 @@ namespace SignalRSample.Controllers
 
             foreach (var msn in mensaje.usuarios)
             {
-                await _hubContext.Clients.Group(msn).SendAsync("ReceiveNotification", mensaje);
+                await _hubContext.Clients.Group(msn.usuario.ToString()).SendAsync("ReceiveNotification", new
+                {
+                    numeroTelefono=mensaje.numeroTelefono,
+                    cliente=mensaje.cliente,
+                    mensaje = mensaje.mensaje,
+                    idMensaje= msn.idmensaje
+                });
             }
 
             return Ok(new { mensaje = "Se envio el mensaje" });

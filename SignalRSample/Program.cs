@@ -1,4 +1,6 @@
 using SignalRSample.Hubs;
+using SignalRSample.Middelware;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -11,15 +13,28 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddSignalR();
 
-var app = builder.Build();
-
-app.UseCors(builder =>
+// CORS
+builder.Services.AddCors(options =>
 {
-    builder.WithOrigins("http://localhost:3000")
-           .AllowAnyHeader()
-           .AllowAnyMethod()
-           .AllowCredentials();
+    options.AddPolicy("cors", policy =>
+    {
+        policy.WithOrigins("http://localhost:3000","https://HumayaDigital.com")
+              .AllowAnyHeader()
+              .AllowAnyMethod()
+              .AllowCredentials();
+    });
 });
+
+var app = builder.Build();
+app.UseRouting();
+app.UseCors("cors");
+//app.UseCors(builder =>
+//{
+//    builder.WithOrigins("http://localhost:3000")
+//           .AllowAnyHeader()
+//           .AllowAnyMethod()
+//           .AllowCredentials();
+//});
 
 
 // Configure the HTTP request pipeline.
@@ -30,6 +45,37 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+//app.UseMiddleware<ApiKeyMiddleware>();
+//API KEY middleware para controllers
+app.Use(async (context, next) =>
+{
+    var path = context.Request.Path.Value;
+
+// excluir SignalR
+if (path.StartsWith("/hubs"))
+{
+    await next();
+    return;
+}
+
+if (!context.Request.Headers.TryGetValue("X-API-KEY", out var apiKey))
+{
+    context.Response.StatusCode = 401;
+    await context.Response.WriteAsync("API Key requerida");
+    return;
+}
+
+if (apiKey != "SDDEW_rwerew_423545_323423")
+{
+    context.Response.StatusCode = 403;
+    await context.Response.WriteAsync("API Key inválida");
+    return;
+}
+
+await next();
+});
+
 
 app.UseAuthorization();
 

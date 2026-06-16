@@ -6,6 +6,27 @@ namespace SignalRSample.Hubs
 {
     public class UserHub : Hub
     {
+        private const string APIKEY = "SDDEW_rwerew_423545_323423";
+
+
+        public override async Task OnConnectedAsync()
+        {
+            var httpContext = Context.GetHttpContext();
+
+            var apiKey = httpContext.Request.Query["apikey"].ToString();
+
+            if (string.IsNullOrEmpty(apiKey) || apiKey != APIKEY)
+            {
+                Context.Abort(); // rechaza conexión
+                return;
+            }
+
+            await base.OnConnectedAsync();
+        }
+
+
+
+
         public static int TotalViews { get; set; } = 0;
 
         public static ConcurrentDictionary<string, int> ChatCounters
