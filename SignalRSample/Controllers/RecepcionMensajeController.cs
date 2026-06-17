@@ -40,5 +40,26 @@ namespace SignalRSample.Controllers
 
             return Ok(new { mensaje = "Se envio el mensaje" });
         }
+
+        [HttpPost("recibeNotificacion")]
+        public async Task<IActionResult> recibeNotificacion([FromBody] mdl_Notificaciones mensaje)
+        {
+
+            if (mensaje.usuarios == null || !mensaje.usuarios.Any())
+                return BadRequest("La lista de usuarios está vacía.");
+
+            foreach (var msn in mensaje.usuarios)
+            {
+                await _hubContext.Clients.Group(msn.usuario.ToString()).SendAsync("ReceiveNotification", new
+                {
+                    numeroTelefono=mensaje.numeroTelefono,
+                    cliente=mensaje.cliente,
+                    mensaje = mensaje.mensaje,
+                    idMensaje= msn.idmensaje
+                });
+            }
+
+            return Ok(new { mensaje = "Se envio el mensaje" });
+        }
     }
 }

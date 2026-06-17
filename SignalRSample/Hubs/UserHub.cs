@@ -6,6 +6,27 @@ namespace SignalRSample.Hubs
 {
     public class UserHub : Hub
     {
+        private const string APIKEY = "SDDEW_rwerew_423545_323423";
+
+
+        public override async Task OnConnectedAsync()
+        {
+            var httpContext = Context.GetHttpContext();
+
+            var apiKey = httpContext.Request.Query["apikey"].ToString();
+
+            if (string.IsNullOrEmpty(apiKey) || apiKey != APIKEY)
+            {
+                Context.Abort(); // rechaza conexión
+                return;
+            }
+
+            await base.OnConnectedAsync();
+        }
+
+
+
+
         public static int TotalViews { get; set; } = 0;
 
         public static ConcurrentDictionary<string, int> ChatCounters
@@ -53,5 +74,28 @@ namespace SignalRSample.Hubs
                 .SendAsync("ReceiveMessage", mensaje);
         }
 
+        // 👇 NUEVO: usuario entró a aplicacion
+        public async Task JoinSession(string userId)
+        {
+            await Groups.AddToGroupAsync(Context.ConnectionId, userId);
+        }
+
+        // Sale de la aplicacion
+        public async Task LeaveSession(string userId)
+        {
+
+            await Groups.RemoveFromGroupAsync(Context.ConnectionId, userId);
+
+        }
+
+        // 👇 NUEVO: notificar a usuario de nuevo mensaje
+        public async Task envioNotificacion(string userId, mdl_Notificaciones mensaje)
+        {
+
+            await Clients.Group(userId)
+                .SendAsync("ReceiveNotification", mensaje);
+
+            //await Clients.All.SendAsync("ReceiveNotification", mensaje);
+        }
     }
 }

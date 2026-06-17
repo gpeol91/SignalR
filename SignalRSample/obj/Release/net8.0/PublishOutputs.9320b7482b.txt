@@ -1,0 +1,11 @@
+C:\Nube\SignalR\SignalRSample\obj\Release\net8.0\PubTmp\Out\SignalRSample.exe
+C:\Nube\SignalR\SignalRSample\obj\Release\net8.0\PubTmp\Out\appsettings.Development.json
+C:\Nube\SignalR\SignalRSample\obj\Release\net8.0\PubTmp\Out\appsettings.json
+C:\Nube\SignalR\SignalRSample\obj\Release\net8.0\PubTmp\Out\SignalRSample.dll
+C:\Nube\SignalR\SignalRSample\obj\Release\net8.0\PubTmp\Out\SignalRSample.deps.json
+C:\Nube\SignalR\SignalRSample\obj\Release\net8.0\PubTmp\Out\SignalRSample.runtimeconfig.json
+C:\Nube\SignalR\SignalRSample\obj\Release\net8.0\PubTmp\Out\SignalRSample.pdb
+C:\Nube\SignalR\SignalRSample\obj\Release\net8.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Nube\SignalR\SignalRSample\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Nube\SignalR\SignalRSample\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Nube\SignalR\SignalRSample\obj\Release\net8.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
