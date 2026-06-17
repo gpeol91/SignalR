@@ -1,0 +1,65 @@
+[
+  {
+    "ContainingType": "SignalRSample.Controllers.RecepcionMensajeController",
+    "Method": "enviar",
+    "RelativePath": "api/RecepcionMensaje/enviarMensaje",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mensaje",
+        "Type": "SignalRSample.Modelos.mdl_Obtener_Chat_Mensajes",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalRSample.Controllers.RecepcionMensajeController",
+    "Method": "recibeNotificacion",
+    "RelativePath": "api/RecepcionMensaje/recibeNotificacion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mensaje",
+        "Type": "SignalRSample.Modelos.mdl_Notificaciones",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalRSample.Controllers.RecepcionMensajeController",
+    "Method": "Get",
+    "RelativePath": "api/RecepcionMensaje/recibir",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SignalRSample.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[SignalRSample.WeatherForecast, SignalRSample, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetWeatherForecast"
+  }
+]
