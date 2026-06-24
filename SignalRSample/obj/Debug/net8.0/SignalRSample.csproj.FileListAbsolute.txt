@@ -99,3 +99,4 @@ C:\Nube\SignalR\SignalRSample\obj\Debug\net8.0\refint\SignalRSample.dll
 C:\Nube\SignalR\SignalRSample\obj\Debug\net8.0\SignalRSample.pdb
 C:\Nube\SignalR\SignalRSample\obj\Debug\net8.0\SignalRSample.genruntimeconfig.cache
 C:\Nube\SignalR\SignalRSample\obj\Debug\net8.0\ref\SignalRSample.dll
+C:\nube\SignalR\SignalRSample\obj\Debug\net8.0\swae.build.ex.cache

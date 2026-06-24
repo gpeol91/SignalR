@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{9D3B7617-DBBD-4C67-B31B-C86E400EE267}|SignalRSample\\SignalRSample.csproj|solutionrelative:signalrsample\\controllers\\recepcionmensajecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D3B7617-DBBD-4C67-B31B-C86E400EE267}|SignalRSample\\SignalRSample.csproj|c:\\nube\\signalr\\signalrsample\\modelos\\mdl_obtener_chat_mensajes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D3B7617-DBBD-4C67-B31B-C86E400EE267}|SignalRSample\\SignalRSample.csproj|solutionrelative:signalrsample\\modelos\\mdl_obtener_chat_mensajes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D3B7617-DBBD-4C67-B31B-C86E400EE267}|SignalRSample\\SignalRSample.csproj|c:\\nube\\signalr\\signalrsample\\hubs\\userhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D3B7617-DBBD-4C67-B31B-C86E400EE267}|SignalRSample\\SignalRSample.csproj|solutionrelative:signalrsample\\hubs\\userhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,14 +23,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "mdl_Obtener_Chat_Mensajes.cs",
-              "DocumentMoniker": "C:\\nube\\SignalR\\SignalRSample\\Modelos\\mdl_Obtener_Chat_Mensajes.cs",
-              "RelativeDocumentMoniker": "SignalRSample\\Modelos\\mdl_Obtener_Chat_Mensajes.cs",
-              "ToolTip": "C:\\nube\\SignalR\\SignalRSample\\Modelos\\mdl_Obtener_Chat_Mensajes.cs",
-              "RelativeToolTip": "SignalRSample\\Modelos\\mdl_Obtener_Chat_Mensajes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "UserHub.cs",
+              "DocumentMoniker": "C:\\nube\\SignalR\\SignalRSample\\Hubs\\UserHub.cs",
+              "RelativeDocumentMoniker": "SignalRSample\\Hubs\\UserHub.cs",
+              "ToolTip": "C:\\nube\\SignalR\\SignalRSample\\Hubs\\UserHub.cs",
+              "RelativeToolTip": "SignalRSample\\Hubs\\UserHub.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-08T17:53:22.071Z"
+              "WhenOpened": "2026-06-17T18:00:38.752Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -40,7 +41,7 @@
               "RelativeDocumentMoniker": "SignalRSample\\Controllers\\RecepcionMensajeController.cs",
               "ToolTip": "C:\\nube\\SignalR\\SignalRSample\\Controllers\\RecepcionMensajeController.cs",
               "RelativeToolTip": "SignalRSample\\Controllers\\RecepcionMensajeController.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAACYAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwCwAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-29T15:59:50.146Z",
               "EditorCaption": ""

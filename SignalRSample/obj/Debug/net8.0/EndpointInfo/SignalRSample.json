@@ -245,6 +245,14 @@
             "type": "string",
             "nullable": true
           },
+          "archivo": {
+            "type": "string",
+            "nullable": true
+          },
+          "extension": {
+            "type": "string",
+            "nullable": true
+          },
           "estatus": {
             "type": "string",
             "nullable": true
@@ -258,6 +266,10 @@
             "nullable": true
           },
           "empleadoEnviado": {
+            "type": "string",
+            "nullable": true
+          },
+          "fecha": {
             "type": "string",
             "nullable": true
           }
